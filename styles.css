@@ -82,7 +82,7 @@ nav ul li a {
     transition: transform 0.3s;
 }
 
-.work-item:hover, .leadership-item:hover {
+.work-item:hover, .leadership-item:hover, .gallery-item:hover {
     transform: scale(1.05);
 }
 
