@@ -59,7 +59,7 @@ nav ul li a {
 }
 
 .gallery-item {
-    flex: 1 1 calc(50% - 40px);
+    flex: 1 1 calc(50% - 40px); /* Larger size for projects */
     margin: 20px;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -67,11 +67,26 @@ nav ul li a {
     transition: transform 0.3s;
 }
 
-.gallery-item:hover {
+.work-gallery, .leadership-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.work-item, .leadership-item {
+    flex: 1 1 calc(33% - 40px); /* Smaller size for work and leadership */
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.work-item:hover, .leadership-item:hover {
     transform: scale(1.05);
 }
 
-.gallery-item img {
+.gallery-item img, .work-item img, .leadership-item img {
     width: 100%;
     height: auto;
 }
