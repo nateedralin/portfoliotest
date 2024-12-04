@@ -67,6 +67,10 @@ nav ul li a {
     transition: transform 0.3s;
 }
 
+.gallery-item {
+    transform: scale(1.05);
+}
+
 .work-gallery, .leadership-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +86,7 @@ nav ul li a {
     transition: transform 0.3s;
 }
 
-.work-item:hover, .leadership-item:hover, .gallery-item:hover {
+.work-item:hover, .leadership-item:hover {
     transform: scale(1.05);
 }
 
