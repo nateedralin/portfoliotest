@@ -34,14 +34,14 @@ body {
     margin-top: 20px;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 10px; /* Add spacing between buttons */
 }
 
 .btn {
     background-color: #333;
     color: white;
     padding: 12px 24px;
-    margin: 0;
+    margin: 0; /* Remove margin */
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2em;
@@ -65,10 +65,10 @@ body {
 
 .header-nav ul {
     list-style: none;
+    margin: 0;
     padding: 10px;
     display: flex;
     justify-content: flex-start;
-    margin: auto;
 }
 
 .header-nav ul li {
@@ -80,7 +80,6 @@ body {
     color: white;
     font-weight: bold;
     font-size: 1.2em;
-    margin: auto;
 }
 
 nav {
@@ -109,12 +108,11 @@ nav ul li a {
     color: #333;
     font-weight: bold;
     font-size: 1.1em;
-    margin: auto;
 }
 
 .section {
     padding: 20px;
-    margin: auto;
+    margin: 20px auto;
     max-width: 800px;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -126,7 +124,6 @@ nav ul li a {
     text-align: center;
     margin-bottom: 20px;
     font-size: 2em;
-    margin: auto;
 }
 
 .gallery,
@@ -135,7 +132,6 @@ nav ul li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: auto;
 }
 
 .gallery-item,
@@ -146,20 +142,22 @@ nav ul li a {
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
-    margin: auto;
+    margin: 20px auto;
+    height: 200px; /* Set a uniform height for all items */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .gallery-item:hover,
 .work-item:hover,
 .leadership-item:hover {
     transform: scale(1.05);
-    margin: auto;
 }
 
 img {
     max-width: 100%;
     height: auto;
-    margin: auto;
 }
 
 .desc {
@@ -173,41 +171,35 @@ img {
 @media (max-width: 768px) {
     .header-content {
         padding: 10px;
-        margin: auto;
     }
     .btn {
         padding: 10px 20px;
         font-size: 1em;
-        margin: auto;
     }
     .gallery-item,
     .work-item,
     .leadership-item {
         flex: 1 1 100%;
-        margin: auto;
+        margin: 10px auto;
+        height: auto; /* Adjust height for mobile view */
     }
     .desc {
         font-size: 1em;
-        margin: auto;
     }
 }
 
 @media (max-width: 480px) {
     .header-content {
         padding: 5px;
-        margin: auto;
     }
     .btn {
         padding: 8px 16px;
         font-size: 0.9em;
-        margin: auto;
     }
     .section {
         padding: 10px;
-        margin: auto;
     }
     .desc {
         font-size: 0.9em;
-        margin: auto;
     }
 }
