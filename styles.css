@@ -132,4 +132,5 @@ nav ul li a {
     flex: 1 1 calc(50% - 40px); /* Larger size for projects */
     margin: 20px;
     background-color: #fff;
-[_{{{CITATION{{{_1{](https://github.com/SHupi237/Ticket-reservation/tree/2131d586e412dc3776fe0044cfee5b1f1f4fcabe/registration.php)[_{{{CITATION{{{_2{](https://github.com/VictorMOPSena/senasoft-repositorio/tree/28ec22b0e9513981352093cd9011f7353aaabca8/actualizar_personal.php)[_{{{CITATION{{{_3{](https://github.com/moeclay/pdw24jam_entry/tree/9606afcd7eba27990562194ec25565c642e33eab/application%2Fviews%2Fdashboard%2Fpersonal_point.php)
+    border: 1px solid #ddd;
+    box-shadow: 0 0 [_{{{CITATION{{{_1{](https://github.com/SHupi237/Ticket-reservation/tree/2131d586e412dc3776fe0044cfee5b1f1f4fcabe/registration.php)[_{{{CITATION{{{_2{](https://github.com/VictorMOPSena/senasoft-repositorio/tree/28ec22b0e9513981352093cd9011f7353aaabca8/actualizar_personal.php)[_{{{CITATION{{{_3{](https://github.com/moeclay/pdw24jam_entry/tree/9606afcd7eba27990562194ec25565c642e33eab/application%2Fviews%2Fdashboard%2Fpersonal_point.php)
