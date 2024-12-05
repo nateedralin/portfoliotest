@@ -27,11 +27,23 @@ body {
     color: white;
 }
 
-header {
+.header-buttons {
+    margin-top: 20px;
+}
+
+.btn {
     background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #555;
 }
 
 nav {
@@ -134,8 +146,4 @@ nav ul li a {
 }
 
 .quicksand-light {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 300;
-}
-
-.park[_{{{CITATION{{{_1{](https://github.com/SHupi237/Ticket-reservation/tree/2131d586e412dc3776fe0044cfee5b1f1f4fcabe/registration.php)[_{{{CITATION{{{_2{](https://github.com/VictorMOPSena/senasoft-repositorio/tree/28ec22b0e9513981352093cd9011f7353aaabca8/actualizar_personal.php)[_{{{CITATION{{{_3{](https://github.com/moeclay/pdw24jam_entry/tree/9606afcd7eba27990562194ec25565c642e33eab/application%2Fviews%2Fdashboard%2Fpersonal_point.php)
+    font-family[_{{{CITATION{{{_1{](https://github.com/SHupi237/Ticket-reservation/tree/2131d586e412dc3776fe0044cfee5b1f1f4fcabe/registration.php)[_{{{CITATION{{{_2{](https://github.com/VictorMOPSena/senasoft-repositorio/tree/28ec22b0e9513981352093cd9011f7353aaabca8/actualizar_personal.php)[_{{{CITATION{{{_3{](https://github.com/moeclay/pdw24jam_entry/tree/9606afcd7eba27990562194ec25565c642e33eab/application%2Fviews%2Fdashboard%2Fpersonal_point.php)
