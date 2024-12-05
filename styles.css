@@ -12,42 +12,10 @@ body {
     color: #333;
 }
 
-.site-header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.site-title {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-}
-
-.linkedin-icon img {
-    width: 24px;
-    height: 24px;
-}
-
 .main-header {
     position: relative;
     height: 100vh;
     background: url('backfit2.jpg') no-repeat center center/cover;
-    margin-top: 60px; /* Offset for fixed header */
 }
 
 .header-content {
@@ -83,7 +51,7 @@ nav {
     background-color: #fff;
     border-bottom: 2px solid #333;
     position: sticky;
-    top: 60px; /* Offset for fixed header */
+    top: 0;
     z-index: 1000;
 }
 
@@ -133,4 +101,43 @@ nav ul li a {
     margin: 20px;
     background-color: #fff;
     border: 1px solid #ddd;
-    box-shadow: 0 0 [_{{{CITATION{{{_1{](https://github.com/SHupi237/Ticket-reservation/tree/2131d586e412dc3776fe0044cfee5b1f1f4fcabe/registration.php)[_{{{CITATION{{{_2{](https://github.com/VictorMOPSena/senasoft-repositorio/tree/28ec22b0e9513981352093cd9011f7353aaabca8/actualizar_personal.php)[_{{{CITATION{{{_3{](https://github.com/moeclay/pdw24jam_entry/tree/9606afcd7eba27990562194ec25565c642e33eab/application%2Fviews%2Fdashboard%2Fpersonal_point.php)
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05); /* Retain hover effect */
+}
+
+.work-gallery, .leadership-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.work-item, .leadership-item {
+    flex: 1 1 calc(33% - 40px); /* Smaller size for work and leadership */
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.work-item:hover, .leadership-item:hover {
+    transform: scale(1.05);
+}
+
+.gallery-item img, .work-item img, .leadership-item img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 1.1em; /* Increased font size for descriptions */
+}
+
+/* Font Styles */
+.parkinsans-bold {[[_{{{CITATION{{{_1{](https://github.com/SHupi237/Ticket-reservation/tree/2131d586e412dc3776fe0044cfee5b1f1f4fcabe/registration.php)[_{{{CITATION{{{_2{](https://github.com/VictorMOPSena/senasoft-repositorio/tree/28ec22b0e9513981352093cd9011f7353aaabca8/actualizar_personal.php)_{{{CITATION{{{_3{](https://github.com/moeclay/pdw24jam_entry/tree/9606afcd7eba27990562194ec25565c642e33eab/application%2Fviews%2Fdashboard%2Fpersonal_point.php)
