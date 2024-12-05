@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Markazi Text', serif;
-    font-size: 18px;
+    font-family: 'Parkinsans', serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -35,11 +34,11 @@ body {
 .btn {
     background-color: #333;
     color: white;
-    padding: 12px 24px;
+    padding: 12px 24px; /* Increased padding for larger buttons */
     margin: 10px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.2em; /* Increased font size for buttons */
     border-radius: 5px;
     transition: background-color 0.3s;
 }
@@ -72,7 +71,7 @@ nav ul li a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.1em; /* Increased font size for navigation links */
 }
 
 .section {
@@ -82,13 +81,13 @@ nav ul li a {
     background-color: #fff;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    font-size: 1.1em;
+    font-size: 1.1em; /* Increased font size for sections */
 }
 
 .section h2 {
     text-align: center;
     margin-bottom: 20px;
-    font-size: 2em;
+    font-size: 2em; /* Increased font size for section headers */
 }
 
 .gallery {
@@ -137,21 +136,8 @@ nav ul li a {
 .desc {
     padding: 15px;
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1.1em; /* Increased font size for descriptions */
 }
 
 /* Font Styles */
-.markazi-bold {
-    font-family: 'Markazi Text', serif;
-    font-weight: 700;
-}
-
-.markazi-regular {
-    font-family: 'Markazi Text', serif;
-    font-weight: 400;
-}
-
-.markazi-light {
-    font-family: 'Markazi Text', serif;
-    font-weight: 300;
-}
+.parkinsans-bold {[[_{{{CITATION{{{_1{](https://github.com/SHupi237/Ticket-reservation/tree/2131d586e412dc3776fe0044cfee5b1f1f4fcabe/registration.php)[_{{{CITATION{{{_2{](https://github.com/VictorMOPSena/senasoft-repositorio/tree/28ec22b0e9513981352093cd9011f7353aaabca8/actualizar_personal.php)_{{{CITATION{{{_3{](https://github.com/moeclay/pdw24jam_entry/tree/9606afcd7eba27990562194ec25565c642e33eab/application%2Fviews%2Fdashboard%2Fpersonal_point.php)
