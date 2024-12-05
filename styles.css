@@ -8,6 +8,21 @@ body {
     color: #333;
 }
 
+.main-header {
+    position: relative;
+    height: 100vh;
+    background: url('header-image.jpg') no-repeat center center/cover;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
 header {
     background-color: #333;
     color: #fff;
@@ -18,6 +33,9 @@ header {
 nav {
     background-color: #fff;
     border-bottom: 2px solid #333;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav ul {
@@ -68,7 +86,7 @@ nav ul li a {
 }
 
 .gallery-item:hover {
-    transform: scale(1.05);
+    transform: scale(1.05); /* Retain hover effect */
 }
 
 .work-gallery, .leadership-gallery {
@@ -116,14 +134,4 @@ nav ul li a {
     font-weight: 300;
 }
 
-.parkinsans-bold {
-    font-family: 'Parkinsans', serif;
-    font-weight: 800;
-}
-
-footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #333;
-    color: #fff;
-}
+.park[_{{{CITATION{{{_1{](https://github.com/SHupi237/Ticket-reservation/tree/2131d586e412dc3776fe0044cfee5b1f1f4fcabe/registration.php)[_{{{CITATION{{{_2{](https://github.com/VictorMOPSena/senasoft-repositorio/tree/28ec22b0e9513981352093cd9011f7353aaabca8/actualizar_personal.php)[_{{{CITATION{{{_3{](https://github.com/moeclay/pdw24jam_entry/tree/9606afcd7eba27990562194ec25565c642e33eab/application%2Fviews%2Fdashboard%2Fpersonal_point.php)
